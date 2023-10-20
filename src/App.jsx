@@ -1,5 +1,8 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
+import githubLogo from './assets/github-logo.png'
+import linkedinLogo from './assets/linkedin-logo.png'
+import twitterLogo from './assets/twitter-logo.png'
 import viteLogo from '/vite.svg'
 import './App.css'
 
@@ -28,6 +31,24 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+
+      {/* Footer */}
+      <div id='footer'>
+        {/* TODO: Add actual github link */}
+        <a href="https://react.dev" target="_blank">
+          <img src={githubLogo} className="logo github" alt="github logo" />
+        </a>
+
+        {/* TODO: Add actual linkedin link */}
+        <a href="https://react.dev" target="_blank">
+          <img src={linkedinLogo} className="logo linkedin" alt="linkedin logo" />
+        </a>
+
+        {/* TODO: Add actual twiter link */}
+        <a href="https://react.dev" target="_blank">
+          <img src={twitterLogo} className="logo twitter" alt="twitter logo" />
+        </a>
+      </div>
     </>
   )
 }

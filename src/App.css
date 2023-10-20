@@ -5,6 +5,30 @@
   text-align: center;
 }
 
+#header h1 {
+  display: inline-block;
+  font-size: 40px;
+}
+
+#header h1 .logo-highlight {
+  color: #d9dcd6;
+}
+
+#header div {
+  padding-top: 16px;
+  float: right;
+  font-size: 20px;
+}
+
+#header div ul {
+  list-style-type: none;
+}
+
+#header div ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;

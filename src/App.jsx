@@ -11,6 +11,27 @@ function App() {
 
   return (
     <>
+      {/* Header */}
+      <div id='header'>
+        <h1>Marc Vargas</h1>
+          <div>
+            <ul>
+              <li>
+                <a href="#about-me-section">About Me</a>
+              </li>
+              <li>
+                <a href="#first-project-section">Portfolio</a>
+              </li>
+              <li>
+                <a href="#contact-information-section">Contact</a>
+              </li>
+              <li>
+                <a href="#resume-information-section">Resume</a>
+              </li>
+            </ul>
+        </div>
+      </div>
+
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />

@@ -6,10 +6,11 @@ import './index.css'
 
 import App from './App';
 import Error from './pages/Error';
-//import Home from './pages/Home';
-//import Contact from './pages/Contact';
+
 import About from './pages/About';
-//import Blog from './pages/Blog';
+import Contact from './pages/Contact';
+import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
@@ -23,18 +24,18 @@ const router = createBrowserRouter([
         //path: '/about',
         element: <About />,
       },
-      //{
-      //  path: '/About',
-      //  element: <About />,
-      //},
-      //{
-      //  path: '/Blog',
-      //  element: <Blog />,
-      //},
-      //{
-      //  path: '/Contact',
-      //  element: <Contact />,
-      //},
+      {
+        path: '/portfolio',
+        element: <Portfolio />,
+      },
+      {
+        path: '/contact',
+        element: <Contact />,
+      },
+      {
+        path: '/resume',
+        element: <Resume />,
+      },
     ],
   },
 ]);

@@ -3,6 +3,7 @@ import linkedinLogo from './assets/linkedin-logo.png'
 import twitterLogo from './assets/twitter-logo.png'
 
 import { Outlet } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 import './App.css'
 
@@ -15,16 +16,24 @@ function App() {
           <div>
             <ul>
               <li>
-                <a href="#about-me-section">About Me</a>
+                <Link to="/">
+                  About Me
+                </Link>
               </li>
               <li>
-                <a href="#first-project-section">Portfolio</a>
+                <Link to="/portfolio">
+                  Portfolio
+                </Link>
               </li>
               <li>
-                <a href="#contact-information-section">Contact</a>
+              <Link to="/contact">
+                  Contact
+                </Link>
               </li>
               <li>
-                <a href="#resume-information-section">Resume</a>
+              <Link to="/resume">
+                  Resume
+                </Link>
               </li>
             </ul>
         </div>

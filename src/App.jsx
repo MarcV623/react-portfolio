@@ -45,17 +45,17 @@ function App() {
       {/* Footer */}
       <div id='footer'>
         {/* TODO: Add actual github link */}
-        <a href="https://react.dev" target="_blank">
+        <a href="https://github.com/MarcV623">
           <img src={githubLogo} className="logo github" alt="github logo" />
         </a>
 
         {/* TODO: Add actual linkedin link */}
-        <a href="https://react.dev" target="_blank">
+        <a href="https://www.linkedin.com/in/marc-vargas-3163a5280/">
           <img src={linkedinLogo} className="logo linkedin" alt="linkedin logo" />
         </a>
 
         {/* TODO: Add actual twiter link */}
-        <a href="https://react.dev" target="_blank">
+        <a href="https://twitter.com/marcvargas93329">
           <img src={twitterLogo} className="logo twitter" alt="twitter logo" />
         </a>
       </div>

@@ -1,5 +1,7 @@
 import pictureone from '../assets/coding3.jpeg'
 import picturetwo from '../assets/code.jpeg'
+import picturethree from '../assets/better-programmer.webp'
+
 export default function Portfolio() {
     return (
       <div>
@@ -26,10 +28,10 @@ export default function Portfolio() {
 
           {/* Third project */}
           <div className="content-container">
-            <a href="https://marcv623.github.io/html-css-challenge/" target="_blank" rel="noreferrer">
-              <img src={pictureone} alt="some picture" width={500} height={300}></img>
+            <a href="https://marcv623.github.io/Work-Day-Scheduler/" target="_blank" rel="noreferrer">
+              <img src={picturethree} alt="some picture" width={500} height={300}></img>
             </a>
-            <p><a href="https://google.com" target="_blank" rel="noreferrer">View Source Code!</a></p>
+            <p><a href="https://github.com/MarcV623/Work-Day-Scheduler" target="_blank" rel="noreferrer">View Source Code!</a></p>
           </div>
 
           {/* Fourth project */}

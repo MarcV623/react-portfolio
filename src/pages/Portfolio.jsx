@@ -1,6 +1,6 @@
 import pictureone from '../assets/coding3.jpeg'
 import picturetwo from '../assets/code.jpeg'
-export default function Contact() {
+export default function Portfolio() {
     return (
       <div>
         <h1>Portfolio</h1>

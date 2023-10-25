@@ -69,3 +69,24 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.main-content-container {
+  margin: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 5px 10px;
+}
+
+.spacer {
+  margin-top: 100px;
+  flex-basis: 100%;
+  border: none;
+}
+
+.content-container {
+  flex-grow: 1;
+  padding: 25px;
+  height: 250px;
+  flex-basis: 0;
+}

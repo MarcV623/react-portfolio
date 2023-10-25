@@ -1,20 +1,65 @@
+import pictureone from '../assets/coding3.jpeg'
+
 export default function Contact() {
     return (
       <div>
         <h1>Portfolio</h1>
-        <p>
-          Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-          molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-          magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-          efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-          mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-          posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-          faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-          ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-          dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-          conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-          rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-        </p>
+
+        <div className="main-content-container">
+          {/* First project */}
+          <div className="content-container">
+            <a href="https://marcv623.github.io/html-css-challenge/" target="_blank" rel="noreferrer">
+              <img src={pictureone} alt="some picture" width={500} height={300}></img>
+            </a>
+            <p><a href="https://github.com/MarcV623/html-css-challenge" target="_blank" rel="noreferrer">View Source Code!</a></p>
+          </div>
+
+          {/* Second project */}
+          <div className="content-container">
+            <a href="https://marcv623.github.io/html-css-challenge/" target="_blank" rel="noreferrer">
+              <img src={pictureone} alt="some picture" width={500} height={300}></img>
+            </a>
+            <p><a href="https://google.com" target="_blank" rel="noreferrer">View Source Code!</a></p>
+          </div>
+          
+          <p className="spacer"></p>
+
+          {/* Third project */}
+          <div className="content-container">
+            <a href="https://marcv623.github.io/html-css-challenge/" target="_blank" rel="noreferrer">
+              <img src={pictureone} alt="some picture" width={500} height={300}></img>
+            </a>
+            <p><a href="https://google.com" target="_blank" rel="noreferrer">View Source Code!</a></p>
+          </div>
+
+          {/* Fourth project */}
+          <div className="content-container">
+            <a href="https://marcv623.github.io/html-css-challenge/" target="_blank" rel="noreferrer">
+              <img src={pictureone} alt="some picture" width={500} height={300}></img>
+            </a>
+            <p><a href="https://google.com" target="_blank" rel="noreferrer">View Source Code!</a></p>
+          </div>
+
+          <p className="spacer"></p>
+
+          {/* Fifth project */}
+          <div className="content-container">
+            <a href="https://marcv623.github.io/html-css-challenge/" target="_blank" rel="noreferrer">
+              <img src={pictureone} alt="some picture" width={500} height={300}></img>
+            </a>
+            <p><a href="https://google.com" target="_blank" rel="noreferrer">View Source Code!</a></p>
+          </div>
+
+          {/* Sixth project */}
+          <div className="content-container">
+            <a href="https://marcv623.github.io/html-css-challenge/" target="_blank" rel="noreferrer">
+              <img src={pictureone} alt="some picture" width={500} height={300}></img>
+            </a>
+            <p><a href="https://google.com" target="_blank" rel="noreferrer">View Source Code!</a></p>
+          </div>
+
+          <p className="spacer"></p>
+        </div>
       </div>
     );
   }
